@@ -19,8 +19,7 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
 
         private void btn_Quang_Click(object sender, EventArgs e)
         {
-            LopHoc_MonHoc open = new LopHoc_MonHoc();
-            open.Show(this);
+
         }
 
         private void btn_Bich_Click(object sender, EventArgs e)
