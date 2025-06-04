@@ -67,6 +67,12 @@
       <DependentUpon>Tonform.cs</DependentUpon>
     </Compile>
     <Compile Include="TonSQL.cs" />
+    <Compile Include="tonthanhtoanform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tonthanhtoanform.Designer.cs">
+      <DependentUpon>tonthanhtoanform.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Tonform.resx">
       <DependentUpon>Tonform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tonthanhtoanform.resx">
+      <DependentUpon>tonthanhtoanform.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
@@ -425,16 +426,72 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             c = t3.Text.Trim();
             d = t4.Text.Trim();
             f = t5.Text.Trim();
+     
 
+            //  MessageBox.Show(""+t.ToString("yyyy/MM/dd"), "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             if (thamso == 1)
             {
+                if (!Regex.IsMatch(a, @"^NV\d{2}$"))
+                {
+                    MessageBox.Show("Mã chức vụ có mẫu NV__ với _ là 1 số ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                else if (!tonSQL.timkiemmanv(a))
+                {
+                    MessageBox.Show("Mã nhân viên  không tồn tại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                else if (tonSQL.kiemtranhanviencophieutaitructrongtuonglaikhong(a, DateTime.Now))
+                {
+                    MessageBox.Show("nhân viên  còn có phiếu tại trực trong tương lại vui lòng phân công phiếu tải trực đó cho nhân viên khác để xóa nhân viên này", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa nhân viên này không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
+                {
+                    tonSQL.xoanhanvien(a);
+                    MessageBox.Show("xóa nhân viên thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    // Cập nhật lại danh sách sau khi sửa
+                    DataTable dt = tonSQL.laydanhsachnhanvien();
+                    loaddata(dt);
+                }
 
             }
-
             if (thamso == 2)
-            { 
-            
+            {
+                if (!Regex.IsMatch(a, @"^CV\d{2}$"))
+                {
+                    MessageBox.Show("Mã chức vụ có mẫu CV__ với _ là 1 số ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                else if (!tonSQL.timkiemmacv(a))
+                {
+                    MessageBox.Show("Mã chức vụ không tồn tại!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                t2.Text = "";
+                t3.Text = "";
+                DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa chức vụ này không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result == DialogResult.Yes)
+                {
+                    tonSQL.xoachucvu(a);
+                    MessageBox.Show("xóa chức vụ thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    // Cập nhật lại danh sách sau khi sửa
+                    DataTable dt = tonSQL.laydanhsachchucvu();
+                    loaddata(dt);
+                }
+
             }
+        }
+
+        private void btn_tonthanhtoan_Click(object sender, EventArgs e)
+        {
+            tonthanhtoanform    tonthanhtoanform = new tonthanhtoanform();
+            this.Hide();
+            tonthanhtoanform.ShowDialog();
+            this.Show();
         }
     }
 }

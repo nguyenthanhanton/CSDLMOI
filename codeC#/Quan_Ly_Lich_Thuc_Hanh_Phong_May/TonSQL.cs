@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
 {
@@ -370,6 +372,149 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             }
 
             return dt;
+
+        }
+        public void xoachucvu(string a)
+        {
+            try
+            {
+                using (SqlCommand cmd = new SqlCommand("[dbo].[xoachucvu]", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    // Thêm tham số cho stored procedure
+                    cmd.Parameters.AddWithValue("@macv", a);
+                   
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi: " + ex.Message);
+            }
+
+
+        }
+        public bool kiemtranhanviencophieutaitructrongtuonglaikhong(string a,DateTime ngay)
+        {
+            bool co = false;
+            try
+            {
+                using (SqlCommand cmd = new SqlCommand("[dbo].[kiemtranhanviencophieutaitructrongtuonglaikhong]", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    cmd.Parameters.AddWithValue("@manv", a);
+                    cmd.Parameters.AddWithValue("@date", ngay);
+
+                    using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+                    {
+                        DataTable dt = new DataTable();
+                        da.Fill(dt);
+
+                        if (dt.Rows.Count > 0)
+                        {
+                            co = true;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi: " + ex.Message);
+            }
+            return co;
+
+
+        }
+        public void xoanhanvien(string a)
+        {
+            try
+            {
+                using (SqlCommand cmd = new SqlCommand("[dbo].[xoanhanvien]", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    // Thêm tham số cho stored procedure
+                    cmd.Parameters.AddWithValue("@manv", a);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi: " + ex.Message);
+            }
+
+
+        }
+        public DataTable laydanhthanhtoan()
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                SqlCommand cmd = new SqlCommand("[dbo].[laydulieu]", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi: " + ex.Message);
+            }
+
+            return dt;
+        }
+        public bool thanhtoanchua(string a, string b,string c)
+        {
+            bool co = false;
+            try
+            {
+                using (SqlCommand cmd = new SqlCommand("[dbo].[thanhtoanchua]", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    cmd.Parameters.AddWithValue("@manv", a);
+                    cmd.Parameters.AddWithValue("@nam", b);
+                    cmd.Parameters.AddWithValue("@thang", c);
+
+                    using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+                    {
+                        DataTable dt = new DataTable();
+                        da.Fill(dt);
+
+                        if (dt.Rows.Count > 0)
+                        {
+                            co = true;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi: " + ex.Message);
+            }
+            return co;
+
+
+        }
+        public void thanhtoanchonv(string a,string b, string c)
+        {
+            try
+            {
+                using (SqlCommand cmd = new SqlCommand("[dbo].[thanhtoanchonv]", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    // Thêm tham số cho stored procedure
+                    cmd.Parameters.AddWithValue("@manv", a);
+                    cmd.Parameters.AddWithValue("@nam", b);
+                    cmd.Parameters.AddWithValue("@thang", c);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Lỗi: " + ex.Message);
+            }
+
 
         }
 

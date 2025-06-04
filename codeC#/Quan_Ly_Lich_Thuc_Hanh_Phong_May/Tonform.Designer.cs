@@ -31,8 +31,6 @@
             this.panel_QLLTHPM = new System.Windows.Forms.Panel();
             this.lbl_LTHPM = new System.Windows.Forms.Label();
             this.lbl_QL = new System.Windows.Forms.Label();
-            this.pb_QLTHPM = new System.Windows.Forms.PictureBox();
-            this.pb_LOGIN = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btn_tonthanhtoan = new System.Windows.Forms.Button();
             this.btn_toncv = new System.Windows.Forms.Button();
@@ -60,12 +58,14 @@
             this.btn_tonedit = new System.Windows.Forms.Button();
             this.btn_tonxoa = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.pb_QLTHPM = new System.Windows.Forms.PictureBox();
+            this.pb_LOGIN = new System.Windows.Forms.PictureBox();
             this.panel_QLLTHPM.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_QLTHPM)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_LOGIN)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel_TTGV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_QLTHPM)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_LOGIN)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_QLLTHPM
@@ -101,26 +101,6 @@
             this.lbl_QL.TabIndex = 6;
             this.lbl_QL.Text = "QUẢN LÝ";
             // 
-            // pb_QLTHPM
-            // 
-            this.pb_QLTHPM.Image = global::Quan_Ly_Lich_Thuc_Hanh_Phong_May.Properties.Resources.z6642997480070_007cfe4b2b8382d29157f2e64e4a8b7d_removebg_preview;
-            this.pb_QLTHPM.Location = new System.Drawing.Point(17, 0);
-            this.pb_QLTHPM.Name = "pb_QLTHPM";
-            this.pb_QLTHPM.Size = new System.Drawing.Size(84, 66);
-            this.pb_QLTHPM.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_QLTHPM.TabIndex = 5;
-            this.pb_QLTHPM.TabStop = false;
-            // 
-            // pb_LOGIN
-            // 
-            this.pb_LOGIN.Image = global::Quan_Ly_Lich_Thuc_Hanh_Phong_May.Properties.Resources.anhthongtin;
-            this.pb_LOGIN.Location = new System.Drawing.Point(1549, 12);
-            this.pb_LOGIN.Name = "pb_LOGIN";
-            this.pb_LOGIN.Size = new System.Drawing.Size(51, 44);
-            this.pb_LOGIN.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_LOGIN.TabIndex = 4;
-            this.pb_LOGIN.TabStop = false;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
@@ -143,6 +123,7 @@
             this.btn_tonthanhtoan.TabIndex = 7;
             this.btn_tonthanhtoan.Text = "Thanh Toán Từng Tháng";
             this.btn_tonthanhtoan.UseVisualStyleBackColor = true;
+            this.btn_tonthanhtoan.Click += new System.EventHandler(this.btn_tonthanhtoan_Click);
             // 
             // btn_toncv
             // 
@@ -393,6 +374,26 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
+            // pb_QLTHPM
+            // 
+            this.pb_QLTHPM.Image = global::Quan_Ly_Lich_Thuc_Hanh_Phong_May.Properties.Resources.z6642997480070_007cfe4b2b8382d29157f2e64e4a8b7d_removebg_preview;
+            this.pb_QLTHPM.Location = new System.Drawing.Point(17, 0);
+            this.pb_QLTHPM.Name = "pb_QLTHPM";
+            this.pb_QLTHPM.Size = new System.Drawing.Size(84, 66);
+            this.pb_QLTHPM.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_QLTHPM.TabIndex = 5;
+            this.pb_QLTHPM.TabStop = false;
+            // 
+            // pb_LOGIN
+            // 
+            this.pb_LOGIN.Image = global::Quan_Ly_Lich_Thuc_Hanh_Phong_May.Properties.Resources.anhthongtin;
+            this.pb_LOGIN.Location = new System.Drawing.Point(1549, 12);
+            this.pb_LOGIN.Name = "pb_LOGIN";
+            this.pb_LOGIN.Size = new System.Drawing.Size(51, 44);
+            this.pb_LOGIN.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_LOGIN.TabIndex = 4;
+            this.pb_LOGIN.TabStop = false;
+            // 
             // Tonform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -407,12 +408,12 @@
             this.Load += new System.EventHandler(this.Tonform_Load);
             this.panel_QLLTHPM.ResumeLayout(false);
             this.panel_QLLTHPM.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_QLTHPM)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_LOGIN)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel_TTGV.ResumeLayout(false);
             this.panel_TTGV.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_QLTHPM)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_LOGIN)).EndInit();
             this.ResumeLayout(false);
 
         }
