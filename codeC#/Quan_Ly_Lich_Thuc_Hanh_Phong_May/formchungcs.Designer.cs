@@ -38,6 +38,8 @@
             this.btn_Bich = new System.Windows.Forms.Button();
             this.btn_Quang = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.btn_TT_PM = new System.Windows.Forms.Button();
             this.btn_TT_CV = new System.Windows.Forms.Button();
             this.btn_TT_MH = new System.Windows.Forms.Button();
@@ -48,8 +50,6 @@
             this.btn_TT_TK = new System.Windows.Forms.Button();
             this.btn_TT_THEM = new System.Windows.Forms.Button();
             this.dgv_TT_GV = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel_QLLTHPM.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_QLTHPM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_LOGIN)).BeginInit();
@@ -175,6 +175,26 @@
             this.panel1.Size = new System.Drawing.Size(234, 588);
             this.panel1.TabIndex = 3;
             // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.Location = new System.Drawing.Point(10, 430);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(214, 60);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Phiếu tải trực";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.Location = new System.Drawing.Point(10, 370);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(214, 60);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Lịch Thực Hành";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // btn_TT_PM
             // 
             this.btn_TT_PM.Dock = System.Windows.Forms.DockStyle.Top;
@@ -246,6 +266,7 @@
             this.panel_TTGV.Name = "panel_TTGV";
             this.panel_TTGV.Size = new System.Drawing.Size(1415, 588);
             this.panel_TTGV.TabIndex = 4;
+            this.panel_TTGV.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_TTGV_Paint);
             // 
             // btn_TT_TK
             // 
@@ -274,26 +295,6 @@
             this.dgv_TT_GV.RowTemplate.Height = 24;
             this.dgv_TT_GV.Size = new System.Drawing.Size(1401, 480);
             this.dgv_TT_GV.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.Location = new System.Drawing.Point(10, 370);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(214, 60);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Lịch Thực Hành";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.Location = new System.Drawing.Point(10, 430);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(214, 60);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Phiếu tải trực";
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // formchungcs
             // 

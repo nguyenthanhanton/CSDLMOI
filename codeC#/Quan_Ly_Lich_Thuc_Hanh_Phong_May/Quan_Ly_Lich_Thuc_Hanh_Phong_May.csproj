@@ -46,11 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connect1412.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBich.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBich.Designer.cs">
+      <DependentUpon>FormBich.cs</DependentUpon>
     </Compile>
     <Compile Include="formchungcs.cs">
       <SubType>Form</SubType>
@@ -58,13 +65,70 @@
     <Compile Include="formchungcs.Designer.cs">
       <DependentUpon>formchungcs.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTimKiemLTH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTimKiemLTH.Designer.cs">
+      <DependentUpon>FormTimKiemLTH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTTPhieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTTPhieu.Designer.cs">
+      <DependentUpon>FormTTPhieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTimKiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTimKiem.Designer.cs">
+      <DependentUpon>FormTimKiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUpdateLTH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUpdateLTH.Designer.cs">
+      <DependentUpon>FormUpdateLTH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuDK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhieuDK.Designer.cs">
+      <DependentUpon>PhieuDK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PhieuTaiTruc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PhieuTaiTruc.Designer.cs">
+      <DependentUpon>PhieuTaiTruc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormBich.resx">
+      <DependentUpon>FormBich.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formchungcs.resx">
       <DependentUpon>formchungcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTimKiemLTH.resx">
+      <DependentUpon>FormTimKiemLTH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTTPhieu.resx">
+      <DependentUpon>FormTTPhieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTimKiem.resx">
+      <DependentUpon>FormTimKiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUpdateLTH.resx">
+      <DependentUpon>FormUpdateLTH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhieuDK.resx">
+      <DependentUpon>PhieuDK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PhieuTaiTruc.resx">
+      <DependentUpon>PhieuTaiTruc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

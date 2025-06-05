@@ -24,7 +24,7 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
 
         private void btn_Bich_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void btn_Hieu_Click(object sender, EventArgs e)
@@ -33,6 +33,11 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
         }
 
         private void btn_Ton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel_TTGV_Paint(object sender, PaintEventArgs e)
         {
 
         }
