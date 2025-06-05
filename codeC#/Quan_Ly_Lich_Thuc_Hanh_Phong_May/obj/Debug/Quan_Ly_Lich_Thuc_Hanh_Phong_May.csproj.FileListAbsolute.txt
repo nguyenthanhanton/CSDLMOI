@@ -65,3 +65,15 @@ D:\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_H
 D:\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.Properties.Resources.resources
 D:\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj.GenerateResource.cache
 D:\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj.CoreCompileInputs.cache
+H:\BT_NHÓM_CSDL\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\bin\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.exe.config
+H:\BT_NHÓM_CSDL\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\bin\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.exe
+H:\BT_NHÓM_CSDL\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\bin\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.pdb
+H:\BT_NHÓM_CSDL\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj.AssemblyReference.cache
+H:\BT_NHÓM_CSDL\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.Form1.resources
+H:\BT_NHÓM_CSDL\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.formchungcs.resources
+H:\BT_NHÓM_CSDL\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.Properties.Resources.resources
+H:\BT_NHÓM_CSDL\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj.GenerateResource.cache
+H:\BT_NHÓM_CSDL\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj.CoreCompileInputs.cache
+H:\BT_NHÓM_CSDL\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.exe
+H:\BT_NHÓM_CSDL\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.pdb
+H:\BT_NHÓM_CSDL\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.form_hieu_GVPM.resources
