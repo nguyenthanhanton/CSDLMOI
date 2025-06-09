@@ -56,11 +56,19 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
         }
         private void Tonform_Load(object sender, EventArgs e)
         {
-            this.Size = new Size(1234, 670); // Đặt kích thước của form
+            this.Size = new Size(1050, 670); // Đặt kích thước của form
         }
 
         private void btn_tonnv_Click(object sender, EventArgs e)
         {
+            groupBox1.Visible = true;
+            groupBox2.Visible = true;
+            groupBox3.Visible = true;
+            groupBox4.Visible = true;
+            groupBox5.Visible = true;
+            groupBox6.Visible = true;
+            groupBox7.Visible = true;
+            groupBox8.Visible = true;
             thamso = 1;
             label1.Visible = true; 
             label2.Visible = true; 
@@ -107,6 +115,14 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
         private void btn_toncv_Click(object sender, EventArgs e)
         {
             thamso = 2;
+            groupBox1.Visible = true;
+            groupBox2.Visible = true;
+            groupBox4.Visible = true;
+            groupBox3.Visible = false;
+            groupBox6.Visible = false;
+            groupBox5.Visible = false;
+            groupBox7.Visible = false;
+            groupBox8.Visible = false;
             dataGridView1.Visible = true;
             DataTable dt = tonSQL.laydanhsachchucvu();
             loaddata(dt);
@@ -492,6 +508,16 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             this.Hide();
             tonthanhtoanform.ShowDialog();
             this.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clable_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

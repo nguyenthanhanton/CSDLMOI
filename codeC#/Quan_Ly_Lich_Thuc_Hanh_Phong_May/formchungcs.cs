@@ -34,7 +34,8 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
 
         private void btn_Ton_Click(object sender, EventArgs e)
         {
-            
+            Tonform tonForm = new Tonform();
+            tonForm.ShowDialog();
         }
     }
 }

@@ -34,6 +34,7 @@
             this.pb_QLTHPM = new System.Windows.Forms.PictureBox();
             this.pb_LOGIN = new System.Windows.Forms.PictureBox();
             this.panel_TTGV = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,12 +43,15 @@
             this.thang = new System.Windows.Forms.ComboBox();
             this.btn_tonadd = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel_QLLTHPM.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_QLTHPM)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_LOGIN)).BeginInit();
             this.panel_TTGV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox4.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_QLLTHPM
@@ -106,13 +110,9 @@
             // panel_TTGV
             // 
             this.panel_TTGV.BackColor = System.Drawing.Color.Lavender;
+            this.panel_TTGV.Controls.Add(this.groupBox1);
+            this.panel_TTGV.Controls.Add(this.groupBox4);
             this.panel_TTGV.Controls.Add(this.button1);
-            this.panel_TTGV.Controls.Add(this.label3);
-            this.panel_TTGV.Controls.Add(this.label2);
-            this.panel_TTGV.Controls.Add(this.label1);
-            this.panel_TTGV.Controls.Add(this.manv);
-            this.panel_TTGV.Controls.Add(this.nam);
-            this.panel_TTGV.Controls.Add(this.thang);
             this.panel_TTGV.Controls.Add(this.btn_tonadd);
             this.panel_TTGV.Controls.Add(this.dataGridView1);
             this.panel_TTGV.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -121,10 +121,20 @@
             this.panel_TTGV.Size = new System.Drawing.Size(1378, 700);
             this.panel_TTGV.TabIndex = 6;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1152, 120);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(214, 60);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "Thanh toán";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(253, 54);
+            this.label3.Location = new System.Drawing.Point(207, 5);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 16);
             this.label3.TabIndex = 13;
@@ -133,7 +143,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(53, 54);
+            this.label2.Location = new System.Drawing.Point(38, 5);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 16);
             this.label2.TabIndex = 12;
@@ -142,7 +152,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(529, 54);
+            this.label1.Location = new System.Drawing.Point(106, 2);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(86, 16);
             this.label1.TabIndex = 11;
@@ -150,7 +160,7 @@
             // 
             // manv
             // 
-            this.manv.Location = new System.Drawing.Point(648, 54);
+            this.manv.Location = new System.Drawing.Point(59, 29);
             this.manv.Name = "manv";
             this.manv.Size = new System.Drawing.Size(192, 22);
             this.manv.TabIndex = 10;
@@ -158,7 +168,7 @@
             // nam
             // 
             this.nam.FormattingEnabled = true;
-            this.nam.Location = new System.Drawing.Point(303, 54);
+            this.nam.Location = new System.Drawing.Point(189, 27);
             this.nam.Name = "nam";
             this.nam.Size = new System.Drawing.Size(92, 24);
             this.nam.TabIndex = 8;
@@ -179,7 +189,7 @@
             "10",
             "11",
             "12"});
-            this.thang.Location = new System.Drawing.Point(111, 54);
+            this.thang.Location = new System.Drawing.Point(28, 29);
             this.thang.Name = "thang";
             this.thang.Size = new System.Drawing.Size(68, 24);
             this.thang.TabIndex = 7;
@@ -205,15 +215,35 @@
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
-            // button1
+            // groupBox4
             // 
-            this.button1.Location = new System.Drawing.Point(1152, 120);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(214, 60);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Thanh toán";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.groupBox4.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.groupBox4.Controls.Add(this.manv);
+            this.groupBox4.Controls.Add(this.label1);
+            this.groupBox4.Location = new System.Drawing.Point(594, 35);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(302, 64);
+            this.groupBox4.TabIndex = 32;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "                                                                                 " +
+    "                                                             ";
+            this.groupBox4.Visible = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.groupBox1.Controls.Add(this.thang);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.nam);
+            this.groupBox1.Location = new System.Drawing.Point(96, 35);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(302, 64);
+            this.groupBox1.TabIndex = 33;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "                                                                                 " +
+    "                                                             ";
+            this.groupBox1.Visible = false;
             // 
             // tonthanhtoanform
             // 
@@ -231,8 +261,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb_QLTHPM)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_LOGIN)).EndInit();
             this.panel_TTGV.ResumeLayout(false);
-            this.panel_TTGV.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -254,5 +287,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox4;
     }
 }
