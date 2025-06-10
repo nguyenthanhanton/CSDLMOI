@@ -67,3 +67,16 @@ D:\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_H
 D:\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.exe
 D:\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.pdb
 D:\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\bin\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.pdb
+C:\Users\ton01\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\bin\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.exe.config
+C:\Users\ton01\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\bin\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.exe
+C:\Users\ton01\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\bin\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.pdb
+C:\Users\ton01\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj.AssemblyReference.cache
+C:\Users\ton01\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.Form1.resources
+C:\Users\ton01\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.Properties.Resources.resources
+C:\Users\ton01\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.Tonform.resources
+C:\Users\ton01\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.tonthanhtoanform.resources
+C:\Users\ton01\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj.GenerateResource.cache
+C:\Users\ton01\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj.CoreCompileInputs.cache
+C:\Users\ton01\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.exe
+C:\Users\ton01\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.pdb
+C:\Users\ton01\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.TrangChu.resources

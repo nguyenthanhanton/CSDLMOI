@@ -1,34 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\",
+  "WorkspaceRootPath": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|d:\\csdlmoi\\codec#\\quan_ly_lich_thuc_hanh_phong_may\\tonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:tonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|c:\\users\\ton01\\csdlmoi\\codec#\\quan_ly_lich_thuc_hanh_phong_may\\lophoc_monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:lophoc_monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\tonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:tonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|c:\\users\\ton01\\csdlmoi\\codec#\\quan_ly_lich_thuc_hanh_phong_may\\lophoc_monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:lophoc_monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\tonthanhtoanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:tonthanhtoanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|c:\\users\\ton01\\csdlmoi\\codec#\\quan_ly_lich_thuc_hanh_phong_may\\phieutaitruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:phieutaitruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\tonthanhtoanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|c:\\users\\ton01\\csdlmoi\\codec#\\quan_ly_lich_thuc_hanh_phong_may\\formbich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:formbich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|c:\\users\\ton01\\csdlmoi\\codec#\\quan_ly_lich_thuc_hanh_phong_may\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|c:\\users\\ton01\\csdlmoi\\codec#\\quan_ly_lich_thuc_hanh_phong_may\\gvbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:gvbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|c:\\users\\ton01\\csdlmoi\\codec#\\quan_ly_lich_thuc_hanh_phong_may\\phieudk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:phieudk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|c:\\users\\ton01\\csdlmoi\\codec#\\quan_ly_lich_thuc_hanh_phong_may\\connect1412.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:connect1412.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|c:\\users\\ton01\\csdlmoi\\codec#\\quan_ly_lich_thuc_hanh_phong_may\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\tonthanhtoanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:tonthanhtoanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\tonsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:tonsql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\formchungcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:formchungcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\formchungcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{59AD7760-74B9-4D7D-8856-149E25FC50CE}|Quan_Ly_Lich_Thuc_Hanh_Phong_May.csproj|solutionrelative:formchungcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,42 +55,102 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Tonform.cs",
-              "DocumentMoniker": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\Tonform.cs",
-              "RelativeDocumentMoniker": "Tonform.cs",
-              "ToolTip": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\Tonform.cs",
-              "RelativeToolTip": "Tonform.cs",
-              "ViewState": "AgIAAOcBAAAAAAAAAAAUwPoBAAAMAAAAAAAAAA==",
+              "Title": "LopHoc_MonHoc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\LopHoc_MonHoc.cs",
+              "RelativeDocumentMoniker": "LopHoc_MonHoc.cs",
+              "ToolTip": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\LopHoc_MonHoc.cs [Design]",
+              "RelativeToolTip": "LopHoc_MonHoc.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T00:55:03.868Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TonSQL.cs",
-              "DocumentMoniker": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\TonSQL.cs",
-              "RelativeDocumentMoniker": "TonSQL.cs",
-              "ToolTip": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\TonSQL.cs",
-              "RelativeToolTip": "TonSQL.cs",
-              "ViewState": "AgIAAOUBAAAAAAAAAAAuwPIBAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T01:46:43.064Z",
-              "IsPinned": true
+              "WhenOpened": "2025-06-10T08:11:06.06Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Tonform.cs [Design]",
-              "DocumentMoniker": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\Tonform.cs",
-              "RelativeDocumentMoniker": "Tonform.cs",
-              "ToolTip": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\Tonform.cs [Design]",
-              "RelativeToolTip": "Tonform.cs [Design]",
+              "Title": "LopHoc_MonHoc.cs",
+              "DocumentMoniker": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\LopHoc_MonHoc.cs",
+              "RelativeDocumentMoniker": "LopHoc_MonHoc.cs",
+              "ToolTip": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\LopHoc_MonHoc.cs",
+              "RelativeToolTip": "LopHoc_MonHoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T02:50:46.384Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-06-10T08:11:00.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhieuTaiTruc.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\PhieuTaiTruc.cs",
+              "RelativeDocumentMoniker": "PhieuTaiTruc.cs",
+              "ToolTip": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\PhieuTaiTruc.cs [Design]",
+              "RelativeToolTip": "PhieuTaiTruc.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T08:10:57.237Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormBich.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\FormBich.cs",
+              "RelativeDocumentMoniker": "FormBich.cs",
+              "ToolTip": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\FormBich.cs [Design]",
+              "RelativeToolTip": "FormBich.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T08:07:49.999Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T07:53:15.409Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GVBLL.cs",
+              "DocumentMoniker": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\GVBLL.cs",
+              "RelativeDocumentMoniker": "GVBLL.cs",
+              "ToolTip": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\GVBLL.cs",
+              "RelativeToolTip": "GVBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T08:10:23.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PhieuDK.cs",
+              "DocumentMoniker": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\PhieuDK.cs",
+              "RelativeDocumentMoniker": "PhieuDK.cs",
+              "ToolTip": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\PhieuDK.cs",
+              "RelativeToolTip": "PhieuDK.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T08:09:18.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Connect1412.cs",
+              "DocumentMoniker": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\Connect1412.cs",
+              "RelativeDocumentMoniker": "Connect1412.cs",
+              "ToolTip": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\Connect1412.cs",
+              "RelativeToolTip": "Connect1412.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T08:07:23.318Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -94,51 +166,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T07:53:17.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "tonthanhtoanform.cs",
-              "DocumentMoniker": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\tonthanhtoanform.cs",
+              "DocumentMoniker": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\tonthanhtoanform.cs",
               "RelativeDocumentMoniker": "tonthanhtoanform.cs",
-              "ToolTip": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\tonthanhtoanform.cs",
+              "ToolTip": "C:\\Users\\ton01\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\tonthanhtoanform.cs",
               "RelativeToolTip": "tonthanhtoanform.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAwwFwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T07:55:42.816Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "tonthanhtoanform.cs [Design]",
-              "DocumentMoniker": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\tonthanhtoanform.cs",
-              "RelativeDocumentMoniker": "tonthanhtoanform.cs",
-              "ToolTip": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\tonthanhtoanform.cs [Design]",
-              "RelativeToolTip": "tonthanhtoanform.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T07:04:42.107Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "formchungcs.cs",
-              "DocumentMoniker": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\formchungcs.cs",
-              "RelativeDocumentMoniker": "formchungcs.cs",
-              "ToolTip": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\formchungcs.cs",
-              "RelativeToolTip": "formchungcs.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAtwCUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T13:55:53.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "formchungcs.cs [Design]",
-              "DocumentMoniker": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\formchungcs.cs",
-              "RelativeDocumentMoniker": "formchungcs.cs",
-              "ToolTip": "D:\\CSDLMOI\\codeC#\\Quan_Ly_Lich_Thuc_Hanh_Phong_May\\formchungcs.cs [Design]",
-              "RelativeToolTip": "formchungcs.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T13:55:52.426Z"
             }
           ]
         }

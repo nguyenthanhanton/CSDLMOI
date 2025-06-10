@@ -60,8 +60,10 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
 
         private void btn_login_Click(object sender, EventArgs e)
         {
-            formchungcs formchungcs = new formchungcs();
-            formchungcs.ShowDialog();
+            this.Hide();
+            TrangChu trangChu = new TrangChu();
+            trangChu.ShowDialog();
+            this.Show();
         }
     }
 }
