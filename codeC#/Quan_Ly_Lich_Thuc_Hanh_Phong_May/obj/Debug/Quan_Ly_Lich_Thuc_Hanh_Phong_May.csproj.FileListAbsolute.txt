@@ -104,3 +104,5 @@ E:\banCuoi\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lic
 E:\banCuoi\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.exe
 E:\banCuoi\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.pdb
 E:\banCuoi\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.FormThongKePhieu.resources
+E:\banCuoi\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.hieu_GVPM.resources
+E:\banCuoi\CSDLMOI\codeC#\Quan_Ly_Lich_Thuc_Hanh_Phong_May\obj\Debug\Quan_Ly_Lich_Thuc_Hanh_Phong_May.Tonform2.resources

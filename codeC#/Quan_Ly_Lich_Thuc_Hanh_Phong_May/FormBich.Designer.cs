@@ -40,10 +40,8 @@
             this.cbDataLocLTH = new System.Windows.Forms.ComboBox();
             this.cbLocLTH = new System.Windows.Forms.ComboBox();
             this.bich_btn_loc = new System.Windows.Forms.Button();
-            this.bich_lb_lichth = new System.Windows.Forms.Label();
             this.dataGridViewLTH = new System.Windows.Forms.DataGridView();
             this.page_PTT = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
             this.ptt_btnReset = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.ptt_btnTK = new System.Windows.Forms.Button();
@@ -58,6 +56,7 @@
             this.panel_QLLTHPM = new System.Windows.Forms.Panel();
             this.btnLTH = new System.Windows.Forms.Button();
             this.btnPTT = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.page_lth.SuspendLayout();
             this.tableLayoutPanelLTH.SuspendLayout();
@@ -92,7 +91,6 @@
             this.page_lth.Controls.Add(this.btn_resetLTH);
             this.page_lth.Controls.Add(this.tableLayoutPanelLTH);
             this.page_lth.Controls.Add(this.groupBox1);
-            this.page_lth.Controls.Add(this.bich_lb_lichth);
             this.page_lth.Controls.Add(this.dataGridViewLTH);
             this.page_lth.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.page_lth.Location = new System.Drawing.Point(4, 4);
@@ -248,16 +246,6 @@
             this.bich_btn_loc.UseVisualStyleBackColor = false;
             this.bich_btn_loc.Click += new System.EventHandler(this.bich_btn_loc_Click);
             // 
-            // bich_lb_lichth
-            // 
-            this.bich_lb_lichth.AutoSize = true;
-            this.bich_lb_lichth.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bich_lb_lichth.Location = new System.Drawing.Point(3, 29);
-            this.bich_lb_lichth.Name = "bich_lb_lichth";
-            this.bich_lb_lichth.Size = new System.Drawing.Size(314, 45);
-            this.bich_lb_lichth.TabIndex = 1;
-            this.bich_lb_lichth.Text = "LỊCH THỰC HÀNH";
-            // 
             // dataGridViewLTH
             // 
             this.dataGridViewLTH.AllowUserToAddRows = false;
@@ -275,7 +263,6 @@
             // page_PTT
             // 
             this.page_PTT.BackColor = System.Drawing.Color.White;
-            this.page_PTT.Controls.Add(this.label1);
             this.page_PTT.Controls.Add(this.ptt_btnReset);
             this.page_PTT.Controls.Add(this.tableLayoutPanel1);
             this.page_PTT.Controls.Add(this.groupBox2);
@@ -285,16 +272,6 @@
             this.page_PTT.Padding = new System.Windows.Forms.Padding(3);
             this.page_PTT.Size = new System.Drawing.Size(1837, 623);
             this.page_PTT.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(17, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(198, 45);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "LỊCH TRỰC";
             // 
             // ptt_btnReset
             // 
@@ -461,6 +438,7 @@
             // panel_QLLTHPM
             // 
             this.panel_QLLTHPM.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel_QLLTHPM.Controls.Add(this.label6);
             this.panel_QLLTHPM.Controls.Add(this.btnLTH);
             this.panel_QLLTHPM.Controls.Add(this.btnPTT);
             this.panel_QLLTHPM.Dock = System.Windows.Forms.DockStyle.Top;
@@ -499,6 +477,17 @@
             this.btnPTT.UseVisualStyleBackColor = false;
             this.btnPTT.Click += new System.EventHandler(this.btnPTT_Click);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(7, 16);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(229, 46);
+            this.label6.TabIndex = 35;
+            this.label6.Text = "DANH SÁCH";
+            // 
             // FormBich
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -527,6 +516,7 @@
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewPTT)).EndInit();
             this.panel_QLLTHPM.ResumeLayout(false);
+            this.panel_QLLTHPM.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -537,7 +527,6 @@
         //private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage page_lth;
         private System.Windows.Forms.TabPage page_PTT;
-        private System.Windows.Forms.Label bich_lb_lichth;
         private System.Windows.Forms.DataGridView dataGridViewLTH;
         private System.Windows.Forms.Button bich_btn_dklth;
         private System.Windows.Forms.Button bich_btn_capnhat;
@@ -563,6 +552,6 @@
         private System.Windows.Forms.ComboBox cbDataLocLTH;
         private System.Windows.Forms.Button btnPTT;
         private System.Windows.Forms.Button btnLTH;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label6;
     }
 }

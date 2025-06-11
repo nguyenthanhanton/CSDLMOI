@@ -117,11 +117,11 @@
             this.dataGridViewPTT.AllowUserToResizeColumns = false;
             this.dataGridViewPTT.AllowUserToResizeRows = false;
             this.dataGridViewPTT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewPTT.Location = new System.Drawing.Point(150, 113);
+            this.dataGridViewPTT.Location = new System.Drawing.Point(3, 113);
             this.dataGridViewPTT.Name = "dataGridViewPTT";
             this.dataGridViewPTT.RowHeadersWidth = 51;
             this.dataGridViewPTT.RowTemplate.Height = 24;
-            this.dataGridViewPTT.Size = new System.Drawing.Size(1406, 495);
+            this.dataGridViewPTT.Size = new System.Drawing.Size(1553, 495);
             this.dataGridViewPTT.TabIndex = 16;
             // 
             // groupBox2
@@ -170,7 +170,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(143, 47);
+            this.label2.Location = new System.Drawing.Point(7, 47);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(480, 41);
             this.label2.TabIndex = 13;

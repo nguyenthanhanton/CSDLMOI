@@ -67,7 +67,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(145, 32);
+            this.label4.Location = new System.Drawing.Point(7, 32);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(418, 41);
             this.label4.TabIndex = 34;
@@ -196,11 +196,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(152, 101);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 101);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1270, 497);
+            this.dataGridView1.Size = new System.Drawing.Size(1419, 497);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 

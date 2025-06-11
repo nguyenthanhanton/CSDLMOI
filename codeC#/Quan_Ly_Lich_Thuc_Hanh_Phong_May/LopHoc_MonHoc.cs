@@ -500,6 +500,11 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             LoadData(query);
         }
 
+        private void panel_TTGV_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         //Tac dong vao DataGridView
         private void dataGrid_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {

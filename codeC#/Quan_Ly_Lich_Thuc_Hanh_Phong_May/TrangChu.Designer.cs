@@ -32,6 +32,7 @@
             this.panel_QLLTHPM = new System.Windows.Forms.Panel();
             this.lbl_LTHPM = new System.Windows.Forms.Label();
             this.lbl_QL = new System.Windows.Forms.Label();
+            this.pb_QLTHPM = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.btnThanhToan = new System.Windows.Forms.Button();
@@ -40,22 +41,21 @@
             this.btnLopMon = new System.Windows.Forms.Button();
             this.btnTrangChu = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panelHienForm = new System.Windows.Forms.Panel();
             this.panelTrangChu = new System.Windows.Forms.Panel();
+            this.panelLuong = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnLuong = new System.Windows.Forms.Button();
             this.btnLichTruc = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.panelLuong = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pb_QLTHPM = new System.Windows.Forms.PictureBox();
             this.panel_QLLTHPM.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_QLTHPM)).BeginInit();
             this.panel5.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panelHienForm.SuspendLayout();
             this.panelTrangChu.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_QLTHPM)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_QLLTHPM
@@ -92,6 +92,17 @@
             this.lbl_QL.Size = new System.Drawing.Size(88, 23);
             this.lbl_QL.TabIndex = 6;
             this.lbl_QL.Text = "QUẢN LÝ";
+            // 
+            // pb_QLTHPM
+            // 
+            this.pb_QLTHPM.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pb_QLTHPM.Image = global::Quan_Ly_Lich_Thuc_Hanh_Phong_May.Properties.Resources.z6642997480070_007cfe4b2b8382d29157f2e64e4a8b7d_removebg_preview;
+            this.pb_QLTHPM.Location = new System.Drawing.Point(0, 0);
+            this.pb_QLTHPM.Name = "pb_QLTHPM";
+            this.pb_QLTHPM.Size = new System.Drawing.Size(84, 72);
+            this.pb_QLTHPM.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_QLTHPM.TabIndex = 5;
+            this.pb_QLTHPM.TabStop = false;
             // 
             // panel5
             // 
@@ -232,6 +243,25 @@
             this.panel7.Size = new System.Drawing.Size(309, 70);
             this.panel7.TabIndex = 11;
             // 
+            // button1
+            // 
+            this.button1.AutoSize = true;
+            this.button1.BackColor = System.Drawing.Color.SteelBlue;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(0, 904);
+            this.button1.Margin = new System.Windows.Forms.Padding(0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(309, 77);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "            Đăng xuất";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // panelHienForm
             // 
             this.panelHienForm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -251,6 +281,14 @@
             this.panelTrangChu.Name = "panelTrangChu";
             this.panelTrangChu.Size = new System.Drawing.Size(1678, 981);
             this.panelTrangChu.TabIndex = 0;
+            // 
+            // panelLuong
+            // 
+            this.panelLuong.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelLuong.Location = new System.Drawing.Point(0, 70);
+            this.panelLuong.Name = "panelLuong";
+            this.panelLuong.Size = new System.Drawing.Size(1678, 911);
+            this.panelLuong.TabIndex = 3;
             // 
             // panel1
             // 
@@ -297,49 +335,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(142, 16);
+            this.label1.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(7, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 45);
+            this.label1.Size = new System.Drawing.Size(176, 41);
             this.label1.TabIndex = 0;
             this.label1.Text = "THỐNG KÊ";
-            // 
-            // panelLuong
-            // 
-            this.panelLuong.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelLuong.Location = new System.Drawing.Point(0, 70);
-            this.panelLuong.Name = "panelLuong";
-            this.panelLuong.Size = new System.Drawing.Size(1678, 911);
-            this.panelLuong.TabIndex = 3;
-            // 
-            // button1
-            // 
-            this.button1.AutoSize = true;
-            this.button1.BackColor = System.Drawing.Color.SteelBlue;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.Location = new System.Drawing.Point(0, 928);
-            this.button1.Margin = new System.Windows.Forms.Padding(0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(309, 53);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "EXIT";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // pb_QLTHPM
-            // 
-            this.pb_QLTHPM.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pb_QLTHPM.Image = global::Quan_Ly_Lich_Thuc_Hanh_Phong_May.Properties.Resources.z6642997480070_007cfe4b2b8382d29157f2e64e4a8b7d_removebg_preview;
-            this.pb_QLTHPM.Location = new System.Drawing.Point(0, 0);
-            this.pb_QLTHPM.Name = "pb_QLTHPM";
-            this.pb_QLTHPM.Size = new System.Drawing.Size(84, 72);
-            this.pb_QLTHPM.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_QLTHPM.TabIndex = 5;
-            this.pb_QLTHPM.TabStop = false;
             // 
             // TrangChu
             // 
@@ -356,6 +358,7 @@
             this.Load += new System.EventHandler(this.TrangChu_Load);
             this.panel_QLLTHPM.ResumeLayout(false);
             this.panel_QLLTHPM.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_QLTHPM)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -363,7 +366,6 @@
             this.panelTrangChu.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_QLTHPM)).EndInit();
             this.ResumeLayout(false);
 
         }

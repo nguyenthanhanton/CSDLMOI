@@ -26,6 +26,7 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             this.MaximumSize = new Size(1700, 800);
             this.WindowState = FormWindowState.Maximized;
             Reset();
+            HighlightButton(btnTrangChu);
         }
         private void LoadChildForm(Form childForm)
         {
@@ -39,6 +40,17 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             this.panelHienForm.Controls.Add(childForm);
             childForm.Show();
         }
+        private void HighlightButton(Button Button)
+        {
+            foreach (Control control in tableLayoutPanel1.Controls) // giả sử các nút nằm trong panelMenu
+            {
+                if (control is Button btn)
+                {
+                    btn.BackColor = SystemColors.GradientInactiveCaption; // màu mặc định
+                }
+            }
+            Button.BackColor = Color.LightSteelBlue;
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
@@ -49,19 +61,22 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
         }
         private void button6_Click(object sender, EventArgs e)
         {
+            HighlightButton((Button)sender);
             LopHoc_MonHoc f = new LopHoc_MonHoc();
             LoadChildForm(f);
         }
 
         private void btnGVPM_Click(object sender, EventArgs e)
         {
-            form_hieu_GVPM f = new form_hieu_GVPM();
+            HighlightButton((Button)sender);
+            hieu_GVPM f = new hieu_GVPM();
             LoadChildForm(f);
         }
 
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
-            Tonform frm = new Tonform();
+            HighlightButton((Button)sender);
+            Tonform2 frm = new Tonform2();
             LoadChildForm(frm);
         }
         private void Reset()
@@ -78,6 +93,7 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
         }
         private void btnTrangChu_Click(object sender, EventArgs e)
         {
+            HighlightButton((Button)sender);
             Reset();
         }
 

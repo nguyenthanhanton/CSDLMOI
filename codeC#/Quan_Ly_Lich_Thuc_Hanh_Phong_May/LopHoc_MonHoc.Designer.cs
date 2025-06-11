@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel_TTGV = new System.Windows.Forms.Panel();
             this.fullTab = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -123,6 +123,7 @@
             this.panel_TTGV.Name = "panel_TTGV";
             this.panel_TTGV.Size = new System.Drawing.Size(607, 866);
             this.panel_TTGV.TabIndex = 5;
+            this.panel_TTGV.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_TTGV_Paint);
             // 
             // fullTab
             // 
@@ -554,10 +555,10 @@
             // 
             this.clearLopHoc.BackColor = System.Drawing.Color.LightSteelBlue;
             this.clearLopHoc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.clearLopHoc.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.clearLopHoc.Location = new System.Drawing.Point(943, 47);
+            this.clearLopHoc.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.clearLopHoc.Location = new System.Drawing.Point(914, 47);
             this.clearLopHoc.Name = "clearLopHoc";
-            this.clearLopHoc.Size = new System.Drawing.Size(96, 58);
+            this.clearLopHoc.Size = new System.Drawing.Size(125, 58);
             this.clearLopHoc.TabIndex = 15;
             this.clearLopHoc.Text = "Làm mới";
             this.clearLopHoc.UseVisualStyleBackColor = false;
@@ -572,14 +573,14 @@
             this.dataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGrid.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGrid.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dataGrid.Location = new System.Drawing.Point(13, 13);
@@ -595,10 +596,10 @@
             // 
             this.MHSwap.BackColor = System.Drawing.Color.LightSteelBlue;
             this.MHSwap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.MHSwap.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.MHSwap.Location = new System.Drawing.Point(757, 47);
+            this.MHSwap.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.MHSwap.Location = new System.Drawing.Point(709, 47);
             this.MHSwap.Name = "MHSwap";
-            this.MHSwap.Size = new System.Drawing.Size(180, 58);
+            this.MHSwap.Size = new System.Drawing.Size(199, 58);
             this.MHSwap.TabIndex = 4;
             this.MHSwap.Text = "Cho phép chỉnh sửa";
             this.MHSwap.UseVisualStyleBackColor = false;
@@ -691,7 +692,7 @@
             this.lopHoc_Buscar.AutoSize = true;
             this.lopHoc_Buscar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.lopHoc_Buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lopHoc_Buscar.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lopHoc_Buscar.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lopHoc_Buscar.Location = new System.Drawing.Point(459, 47);
             this.lopHoc_Buscar.Name = "lopHoc_Buscar";
             this.lopHoc_Buscar.Size = new System.Drawing.Size(145, 58);
@@ -705,7 +706,7 @@
             this.lopHoc_Del.AutoSize = true;
             this.lopHoc_Del.BackColor = System.Drawing.Color.LightSteelBlue;
             this.lopHoc_Del.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lopHoc_Del.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lopHoc_Del.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
             this.lopHoc_Del.Location = new System.Drawing.Point(308, 47);
             this.lopHoc_Del.Name = "lopHoc_Del";
             this.lopHoc_Del.Size = new System.Drawing.Size(145, 58);
@@ -719,7 +720,7 @@
             this.lopHoc_Add.AutoSize = true;
             this.lopHoc_Add.BackColor = System.Drawing.Color.LightSteelBlue;
             this.lopHoc_Add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lopHoc_Add.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lopHoc_Add.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lopHoc_Add.Location = new System.Drawing.Point(6, 47);
             this.lopHoc_Add.Name = "lopHoc_Add";
             this.lopHoc_Add.Size = new System.Drawing.Size(145, 58);
@@ -733,7 +734,7 @@
             this.lopHoc_Update.AutoSize = true;
             this.lopHoc_Update.BackColor = System.Drawing.Color.LightSteelBlue;
             this.lopHoc_Update.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lopHoc_Update.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lopHoc_Update.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lopHoc_Update.Location = new System.Drawing.Point(157, 47);
             this.lopHoc_Update.Name = "lopHoc_Update";
             this.lopHoc_Update.Size = new System.Drawing.Size(145, 58);
@@ -860,10 +861,11 @@
             // lbl_LTHPM
             // 
             this.lbl_LTHPM.AutoSize = true;
-            this.lbl_LTHPM.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbl_LTHPM.Location = new System.Drawing.Point(12, 13);
+            this.lbl_LTHPM.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.lbl_LTHPM.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_LTHPM.Location = new System.Drawing.Point(12, 21);
             this.lbl_LTHPM.Name = "lbl_LTHPM";
-            this.lbl_LTHPM.Size = new System.Drawing.Size(438, 41);
+            this.lbl_LTHPM.Size = new System.Drawing.Size(453, 41);
             this.lbl_LTHPM.TabIndex = 7;
             this.lbl_LTHPM.Text = "TỔNG HỢP DỮ LIỆU LỚP HỌC";
             this.lbl_LTHPM.Click += new System.EventHandler(this.lbl_LTHPM_Click);
