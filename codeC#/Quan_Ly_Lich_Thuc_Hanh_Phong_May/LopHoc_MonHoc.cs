@@ -16,7 +16,9 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
     public partial class LopHoc_MonHoc : Form
     {
         private DateTime lastClicked = DateTime.MinValue;
-        private const string connection = "Data Source=PEANUT\\SQLEXPRESS;Initial Catalog=QuanLyLichThucHanh;Integrated Security=True;";
+        private const string connection = "server=DESKTOP-8SM0K2C;" +
+                                                          "uid=nbich;pwd=tranthingocbich1412;" +
+                                                          "database=QuanLyLichThucHanh";
         private const string refreshLopHoc = "EXEC Quang_DanhSachLopHoc", refreshMonHoc = "EXEC Quang_DanhSachMonHoc";
         public LopHoc_MonHoc()
         {
@@ -136,13 +138,7 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
         {
         }
 
-        private void btn_Quang_Click(object sender, EventArgs e)
-        {
-            formchungcs formchungcs = new formchungcs();
-            formchungcs.Show();
-            this.Close();
-        }
-
+       
         //CSDL Lop Hoc
         private void lopHoc_Add_Click(object sender, EventArgs e)
         {

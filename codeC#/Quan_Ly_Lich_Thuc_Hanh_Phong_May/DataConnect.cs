@@ -13,7 +13,9 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
         string conStr;
         public DataConnect()
         {
-            conStr = "Data Source = Admin\\SQLEXPRESS06; Initial Catalog = QuanLyLichThucHanh; UID = hieutranminh; PWD = tranminhhieu;";
+            conStr = "server=DESKTOP-8SM0K2C;" +
+                                                          "uid=nbich;pwd=tranthingocbich1412;" +
+                                                          "database=QuanLyLichThucHanh";
         }
         public SqlConnection getConnect()
         {

@@ -48,14 +48,16 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
 
             if (result == DialogResult.Yes)
             {
-                Application.Exit(); // hoặc this.Close();
+                this.Close();
             }
 
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            //this.TopLevel = false;
+            //this.FormBorderStyle = FormBorderStyle.None;
+            this.ControlBox = false;
         }
 
         private void btn_login_Click(object sender, EventArgs e)

@@ -16,7 +16,9 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
         SqlConnection conn;
         public void taoketnoi()
         {
-            string ketnoi = "server=ANTON; uid=CLDL;pwd=1;database=QuanLyLichThucHanh";
+            string ketnoi = "server=DESKTOP-8SM0K2C;" +
+                                                          "uid=nbich;pwd=tranthingocbich1412;" +
+                                                          "database=QuanLyLichThucHanh";
 
             conn = new SqlConnection(ketnoi);
             conn.Open();

@@ -49,75 +49,83 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             // 
             // txt_name
             // 
-            this.txt_name.Font = new System.Drawing.Font("Times New Roman", 10.8F);
-            this.txt_name.Location = new System.Drawing.Point(176, 31);
+            this.txt_name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txt_name.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_name.Location = new System.Drawing.Point(177, 37);
             this.txt_name.Name = "txt_name";
-            this.txt_name.Size = new System.Drawing.Size(189, 28);
+            this.txt_name.Size = new System.Drawing.Size(189, 31);
             this.txt_name.TabIndex = 0;
             // 
             // txt_pass
             // 
-            this.txt_pass.Font = new System.Drawing.Font("Times New Roman", 10.8F);
-            this.txt_pass.Location = new System.Drawing.Point(177, 86);
+            this.txt_pass.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_pass.Location = new System.Drawing.Point(177, 89);
             this.txt_pass.Name = "txt_pass";
-            this.txt_pass.Size = new System.Drawing.Size(189, 28);
+            this.txt_pass.Size = new System.Drawing.Size(189, 31);
             this.txt_pass.TabIndex = 1;
             this.txt_pass.UseSystemPasswordChar = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(39, 37);
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(39, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 20);
+            this.label1.Size = new System.Drawing.Size(108, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "UserName :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 10.8F);
-            this.label2.Location = new System.Drawing.Point(40, 92);
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(39, 92);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 20);
+            this.label2.Size = new System.Drawing.Size(102, 25);
             this.label2.TabIndex = 3;
             this.label2.Text = "PassWord :";
             // 
             // btn_login
             // 
-            this.btn_login.Location = new System.Drawing.Point(143, 193);
+            this.btn_login.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btn_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_login.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_login.Location = new System.Drawing.Point(128, 193);
             this.btn_login.Name = "btn_login";
-            this.btn_login.Size = new System.Drawing.Size(96, 44);
+            this.btn_login.Size = new System.Drawing.Size(135, 44);
             this.btn_login.TabIndex = 4;
             this.btn_login.Text = "Đăng nhập";
-            this.btn_login.UseVisualStyleBackColor = true;
+            this.btn_login.UseVisualStyleBackColor = false;
             this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
             // btn_exit
             // 
-            this.btn_exit.Location = new System.Drawing.Point(298, 193);
+            this.btn_exit.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btn_exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_exit.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_exit.Location = new System.Drawing.Point(292, 193);
             this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(96, 44);
+            this.btn_exit.Size = new System.Drawing.Size(108, 44);
             this.btn_exit.TabIndex = 5;
             this.btn_exit.Text = "Thoát";
-            this.btn_exit.UseVisualStyleBackColor = true;
+            this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
             // linkl_forget
             // 
             this.linkl_forget.AutoSize = true;
-            this.linkl_forget.Font = new System.Drawing.Font("Times New Roman", 10.8F);
+            this.linkl_forget.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkl_forget.LinkColor = System.Drawing.Color.Black;
-            this.linkl_forget.Location = new System.Drawing.Point(300, 146);
+            this.linkl_forget.Location = new System.Drawing.Point(323, 149);
             this.linkl_forget.Name = "linkl_forget";
-            this.linkl_forget.Size = new System.Drawing.Size(133, 20);
+            this.linkl_forget.Size = new System.Drawing.Size(120, 20);
             this.linkl_forget.TabIndex = 6;
             this.linkl_forget.TabStop = true;
             this.linkl_forget.Text = "Quên mật khẩu ?";
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.linkl_forget);
             this.panel1.Controls.Add(this.label2);
@@ -134,10 +142,10 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Times New Roman", 10.8F);
-            this.checkBox1.Location = new System.Drawing.Point(124, 146);
+            this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(128, 148);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(160, 24);
+            this.checkBox1.Size = new System.Drawing.Size(148, 24);
             this.checkBox1.TabIndex = 8;
             this.checkBox1.Text = "Hiện thị mật khẩu";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -151,6 +159,7 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox1.Image = global::Quan_Ly_Lich_Thuc_Hanh_Phong_May.Properties.Resources.z6642997480070_007cfe4b2b8382d29157f2e64e4a8b7d_removebg_preview;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
@@ -164,7 +173,7 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Lavender;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(551, 518);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);

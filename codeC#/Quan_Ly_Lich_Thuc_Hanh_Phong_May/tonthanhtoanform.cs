@@ -30,20 +30,19 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             dataGridView1.AutoResizeRows(DataGridViewAutoSizeRowsMode.AllCells);
             dataGridView1.ScrollBars = ScrollBars.Vertical;
             int totalHeight = dataGridView1.RowCount * dataGridView1.RowTemplate.Height + dataGridView1.ColumnHeadersHeight;
-            dataGridView1.Height = Math.Min(totalHeight, 300);
+            dataGridView1.Height = Math.Min(totalHeight, 400);
         }
         private void tonthanhtoanform_Load(object sender, EventArgs e)
         {
             tonSQL.taoketnoi();
             int startYear = 2000;
             int currentYear = DateTime.Now.Year;
-            dataGridView1.Visible = false;
+            dataGridView1.Visible = true;
             for (int year = startYear; year <= currentYear; year++)
             {
                 nam.Items.Add(year);
             }
         }
-
         private void btn_tonadd_Click(object sender, EventArgs e)
         {
             dataGridView1.Visible = true;
@@ -56,16 +55,11 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
-
                 manv.Text = row.Cells["Mã nhân viên"].Value.ToString();
                 thang.Text = row.Cells["Tháng"].Value.ToString();
                 nam.Text = row.Cells["Năm"].Value.ToString();
-                
-
-               
             }
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             string a, b, c;
@@ -75,36 +69,37 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             DateTime now = DateTime.Now;
             if (manv.Text == "" || thang.Text == "" || nam.Text == "")
             {
-                MessageBox.Show("vui lòng nhập đủ thông số để thanh toán ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Vui lòng nhập đủ thông số để thanh toán. ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            else  if(int.Parse(b)==now.Year&&now.Month== int.Parse(c))
+            else  if(int.Parse(b)==now.Year && now.Month== int.Parse(c))
             {
 
-                MessageBox.Show("hiện tại tháng này chưa hết ngày nên không thanh toán được ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Hiện tại tháng này chưa hết ngày nên không thanh toán được ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             else if (!tonSQL.thanhtoanchua(a,b,c))
             {
-                MessageBox.Show("nhân viên này đã thanh toán rồi ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Nhân viên này đã thanh toán rồi ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
-
             }
             else
             {
-                DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thanh toán cho  nhân viên này không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thanh toán cho nhân viên này không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (result == DialogResult.Yes)
                 {
                     tonSQL.thanhtoanchonv(a,b,c);  
-                    MessageBox.Show("thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                     // Cập nhật lại danh sách sau khi sửa
                     DataTable dt = tonSQL.laydanhthanhtoan();
                     loaddata(dt);
                 }
-
-
             }
+        }
+        private void panel_TTGV_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

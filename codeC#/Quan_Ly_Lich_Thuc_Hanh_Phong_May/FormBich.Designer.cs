@@ -77,11 +77,11 @@
             this.tabControl1.Controls.Add(this.page_PTT);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.ItemSize = new System.Drawing.Size(150, 30);
-            this.tabControl1.Location = new System.Drawing.Point(0, 72);
+            this.tabControl1.Location = new System.Drawing.Point(0, 70);
             this.tabControl1.Multiline = true;
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1845, 659);
+            this.tabControl1.Size = new System.Drawing.Size(1845, 661);
             this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabControl1.TabIndex = 4;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
@@ -98,7 +98,7 @@
             this.page_lth.Location = new System.Drawing.Point(4, 4);
             this.page_lth.Name = "page_lth";
             this.page_lth.Padding = new System.Windows.Forms.Padding(3);
-            this.page_lth.Size = new System.Drawing.Size(1837, 621);
+            this.page_lth.Size = new System.Drawing.Size(1837, 623);
             this.page_lth.TabIndex = 0;
             // 
             // btn_resetLTH
@@ -274,6 +274,7 @@
             // 
             // page_PTT
             // 
+            this.page_PTT.BackColor = System.Drawing.Color.White;
             this.page_PTT.Controls.Add(this.label1);
             this.page_PTT.Controls.Add(this.ptt_btnReset);
             this.page_PTT.Controls.Add(this.tableLayoutPanel1);
@@ -282,9 +283,8 @@
             this.page_PTT.Location = new System.Drawing.Point(4, 4);
             this.page_PTT.Name = "page_PTT";
             this.page_PTT.Padding = new System.Windows.Forms.Padding(3);
-            this.page_PTT.Size = new System.Drawing.Size(1799, 595);
+            this.page_PTT.Size = new System.Drawing.Size(1837, 623);
             this.page_PTT.TabIndex = 1;
-            this.page_PTT.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -466,7 +466,7 @@
             this.panel_QLLTHPM.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_QLLTHPM.Location = new System.Drawing.Point(0, 0);
             this.panel_QLLTHPM.Name = "panel_QLLTHPM";
-            this.panel_QLLTHPM.Size = new System.Drawing.Size(1845, 72);
+            this.panel_QLLTHPM.Size = new System.Drawing.Size(1845, 70);
             this.panel_QLLTHPM.TabIndex = 3;
             // 
             // btnLTH
@@ -476,7 +476,7 @@
             this.btnLTH.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLTH.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLTH.ForeColor = System.Drawing.Color.Black;
-            this.btnLTH.Location = new System.Drawing.Point(540, 11);
+            this.btnLTH.Location = new System.Drawing.Point(540, 12);
             this.btnLTH.Name = "btnLTH";
             this.btnLTH.Size = new System.Drawing.Size(151, 50);
             this.btnLTH.TabIndex = 10;
