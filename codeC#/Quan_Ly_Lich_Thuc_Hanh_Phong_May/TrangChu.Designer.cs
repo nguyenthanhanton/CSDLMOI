@@ -251,14 +251,13 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 904);
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button1.Location = new System.Drawing.Point(0, 919);
             this.button1.Margin = new System.Windows.Forms.Padding(0);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(309, 77);
+            this.button1.Size = new System.Drawing.Size(309, 62);
             this.button1.TabIndex = 7;
-            this.button1.Text = "            Đăng xuất";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Text = "Đăng xuất";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -309,7 +308,7 @@
             this.btnLuong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLuong.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuong.ForeColor = System.Drawing.Color.Black;
-            this.btnLuong.Location = new System.Drawing.Point(1210, 16);
+            this.btnLuong.Location = new System.Drawing.Point(1227, 16);
             this.btnLuong.Name = "btnLuong";
             this.btnLuong.Size = new System.Drawing.Size(197, 45);
             this.btnLuong.TabIndex = 18;

@@ -25,9 +25,11 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
         }
         private void LoadDanhSachPTT()
         {
+            db.Connect();
             try
             {
-                db.Connect();
+                string updateSql = "EXEC CapNhatTatCaHeSoTaiTruc";
+                db.ExecuteNonQuery(updateSql);
                 string sql = "SELECT * FROM dbo.bich_xemPTT() ORDER BY SoPhieu";
                 DataTable dt = db.ExecuteQuery(sql);
                 dataGridViewPTT.DataSource = dt;
