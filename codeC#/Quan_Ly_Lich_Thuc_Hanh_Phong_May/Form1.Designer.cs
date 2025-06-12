@@ -38,7 +38,6 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             this.label2 = new System.Windows.Forms.Label();
             this.btn_login = new System.Windows.Forms.Button();
             this.btn_exit = new System.Windows.Forms.Button();
-            this.linkl_forget = new System.Windows.Forms.LinkLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
@@ -111,23 +110,10 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
             // 
-            // linkl_forget
-            // 
-            this.linkl_forget.AutoSize = true;
-            this.linkl_forget.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkl_forget.LinkColor = System.Drawing.Color.Black;
-            this.linkl_forget.Location = new System.Drawing.Point(323, 149);
-            this.linkl_forget.Name = "linkl_forget";
-            this.linkl_forget.Size = new System.Drawing.Size(120, 20);
-            this.linkl_forget.TabIndex = 6;
-            this.linkl_forget.TabStop = true;
-            this.linkl_forget.Text = "Quên mật khẩu ?";
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.panel1.Controls.Add(this.checkBox1);
-            this.panel1.Controls.Add(this.linkl_forget);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.btn_login);
             this.panel1.Controls.Add(this.label1);
@@ -143,7 +129,7 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(128, 148);
+            this.checkBox1.Location = new System.Drawing.Point(177, 148);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(148, 24);
             this.checkBox1.TabIndex = 8;
@@ -197,7 +183,6 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_login;
         private System.Windows.Forms.Button btn_exit;
-        private System.Windows.Forms.LinkLabel linkl_forget;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.PictureBox pictureBox1;

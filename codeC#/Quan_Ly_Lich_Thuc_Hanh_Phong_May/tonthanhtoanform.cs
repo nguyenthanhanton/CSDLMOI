@@ -72,10 +72,10 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
                 MessageBox.Show("Vui lòng nhập đủ thông số để thanh toán. ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            else  if(int.Parse(b)==now.Year && now.Month== int.Parse(c))
+            else  if(int.Parse(b)>=now.Year && now.Month<=int.Parse(c))
             {
 
-                MessageBox.Show("Hiện tại tháng này chưa hết ngày nên không thanh toán được ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Chỉ cho thanh toán khi hết tháng. ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             else if (!tonSQL.thanhtoanchua(a,b,c))

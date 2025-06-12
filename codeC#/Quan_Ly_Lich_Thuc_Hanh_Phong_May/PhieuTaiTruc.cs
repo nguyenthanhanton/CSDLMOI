@@ -150,9 +150,9 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
                 danhSachLoi.Add("Chưa chọn tên nhân viên.");
             if (string.IsNullOrEmpty(maPM))
                 danhSachLoi.Add("Chưa chọn tên phòng máy.");
-            if (ngay < DateTime.Today)
+            if (ngay <= DateTime.Today)
             {
-                danhSachLoi.Add("Ngày thực hành phải cùng hoặc sau ngày hôm nay");
+                danhSachLoi.Add("Ngày thực hành phải sau ngày hôm nay");
             }
             if (gioBatDau >= gioKetThuc)
             {

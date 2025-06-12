@@ -99,6 +99,7 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
 
         private void btnLTH_Click(object sender, EventArgs e)
         {
+            HighlightButton((Button)sender);
             FormBich f = new FormBich();
             LoadChildForm(f);
         }

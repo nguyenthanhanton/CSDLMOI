@@ -242,11 +242,11 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
                 }
                 else
                 {
-                    DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thêm nhân viên này không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn sữa nhân viên này không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                     if (result == DialogResult.Yes)
                     {
                         tonSQL.suanhanvien(a, b, c, d, f, k, gioitinh, chucvu);
-                        MessageBox.Show("thêm nhân viên thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(" sữa nhân viên thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         // Cập nhật lại danh sách sau khi sửa
                         DataTable dt = tonSQL.laydanhsachnhanvien();
@@ -313,7 +313,7 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             if (thamso == 1)
             {
                 if(!Regex.IsMatch(a, @"^NV\d{2}$")){
-                    MessageBox.Show("Mã chức vụ có mẫu NV__ với _ là 1 số ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Mã nhân viên có mẫu NV__ với _ là 1 số ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
                 else if (tonSQL.timkiemmanv(a))
@@ -339,11 +339,11 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
                 }
                 else
                 {
-                    DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn sửa nhân viên này không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thêm nhân viên này không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                     if (result == DialogResult.Yes)
                     {
                         tonSQL.themnhanvien(a, b, c, d, f, k, gioitinh, chucvu);
-                        MessageBox.Show("sủa nhân viên thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("thêm nhân viên thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                         // Cập nhật lại danh sách sau khi sửa
                         DataTable dt = tonSQL.laydanhsachnhanvien();

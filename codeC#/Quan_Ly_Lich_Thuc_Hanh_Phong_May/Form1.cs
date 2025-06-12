@@ -59,13 +59,25 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             //this.FormBorderStyle = FormBorderStyle.None;
             this.ControlBox = false;
         }
-
+        string tenDN = "admin";
+        string password = "123456";
         private void btn_login_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            TrangChu trangChu = new TrangChu();
-            trangChu.ShowDialog();
-            this.Show();
+            if (tenDN == txt_name.Text && password == txt_pass.Text)
+            {
+                this.Hide();
+                TrangChu trangChu = new TrangChu();
+                trangChu.ShowDialog();
+                this.Show();
+                txt_name.Text = "";
+                txt_pass.Text = "";
+
+            } else
+            {
+                MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu. Nhập lại !!!", "Thông báo");
+                txt_name.Text = "";
+                txt_pass.Text = "";
+            }
         }
     }
 }

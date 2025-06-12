@@ -114,7 +114,6 @@ namespace Quan_Ly_Lich_Thuc_Hanh_Phong_May
             string maGV = phieu_cbMaGV.SelectedItem?.ToString() ?? "";
             string maLop = phieu_cbMaLop.SelectedItem?.ToString() ?? "";
             string tenMon = phieu_cbTenMon.SelectedItem?.ToString() ?? "";
-            MessageBox.Show(maLop);
             string namHoc = phieu_txtNam.Text.Trim();
             int soBuoi = 0;
             int hk = 0;

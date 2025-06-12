@@ -54,9 +54,9 @@
             this.btnLocPTT = new System.Windows.Forms.Button();
             this.dataGridViewPTT = new System.Windows.Forms.DataGridView();
             this.panel_QLLTHPM = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.btnLTH = new System.Windows.Forms.Button();
             this.btnPTT = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.page_lth.SuspendLayout();
             this.tableLayoutPanelLTH.SuspendLayout();
@@ -248,7 +248,9 @@
             // 
             // dataGridViewLTH
             // 
+            this.dataGridViewLTH.AllowDrop = true;
             this.dataGridViewLTH.AllowUserToAddRows = false;
+            this.dataGridViewLTH.AllowUserToOrderColumns = true;
             this.dataGridViewLTH.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewLTH.Location = new System.Drawing.Point(0, 92);
             this.dataGridViewLTH.MultiSelect = false;
@@ -424,6 +426,7 @@
             // dataGridViewPTT
             // 
             this.dataGridViewPTT.AllowUserToAddRows = false;
+            this.dataGridViewPTT.AllowUserToOrderColumns = true;
             this.dataGridViewPTT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewPTT.Location = new System.Drawing.Point(3, 95);
             this.dataGridViewPTT.MultiSelect = false;
@@ -446,6 +449,17 @@
             this.panel_QLLTHPM.Name = "panel_QLLTHPM";
             this.panel_QLLTHPM.Size = new System.Drawing.Size(1845, 70);
             this.panel_QLLTHPM.TabIndex = 3;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(7, 16);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(223, 45);
+            this.label6.TabIndex = 35;
+            this.label6.Text = "DANH SÁCH";
             // 
             // btnLTH
             // 
@@ -476,17 +490,6 @@
             this.btnPTT.Text = "Lịch trực phòng máy";
             this.btnPTT.UseVisualStyleBackColor = false;
             this.btnPTT.Click += new System.EventHandler(this.btnPTT_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(7, 16);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(229, 46);
-            this.label6.TabIndex = 35;
-            this.label6.Text = "DANH SÁCH";
             // 
             // FormBich
             // 
